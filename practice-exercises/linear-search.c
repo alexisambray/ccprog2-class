@@ -1,3 +1,5 @@
+/* This is a sample linear search problem given an array */
+
 #include <stdio.h>
 
 int LinearSearch(int key, int A[], int n) {
