@@ -1,4 +1,4 @@
-# GRADES (contributed by F.R. Salvador)
+# GRADES (contributed by F.R. Salvador) CCPROG2
 ## This program is the solution to the Grades problem tasks.
 
 + Task #1: Define the Print_Students_List() function which will printf() values of all data in the list of student records starting from the first index to the last index.
