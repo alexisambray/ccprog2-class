@@ -27,8 +27,30 @@ int main() {
   struct dateTag today;
   struct dateTag birthdate;
 
-  scanf("%d", &landline.number);
-  printf("%d\n", landline.number);
+  birthdate.month = 12;
+  birthdate.day = 25;
+  birthdate.year = 2009;
+
+  // print birthdate members
+  printf("Birthdate is %d/%d/%d\n", birthdate.month, birthdate.day,
+         birthdate.year);
+
+  // input today members
+  printf("Input today's month day and year: ");
+  scanf("%d %d %d", &today.month, &today.day, &today.year);
+
+  // print today members
+  printf("Today is %d/%d/%d\n", today.month, today.day, today.year);
+
+  // initialize using strcpy()
+  strcpy(email_account.login_name, "pusa");
+  strcpy(email_account.password, "MuNinG123");
+
+  // input using scanf("%s", ...)
+  printf("Input login name: ");
+  scanf("%s", facebook_account.login_name);
+  printf("Input password: ");
+  scanf("%s", facebook_account.password);
 
   return 0;
 }
